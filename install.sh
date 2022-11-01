@@ -21,7 +21,7 @@ function setupConfig() {
 
     [[ ! -e "$HOME/.config/nvim" ]] && mkdir "$HOME/.config/nvim"
 
-    config_path = "$HOME/.config/nvim/"
+    config_path="$HOME/.config/nvim/"
     mv ./lua $config_path
     mv ./init.lua $config_path
     mv ./autoload $config_path

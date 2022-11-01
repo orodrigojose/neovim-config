@@ -1,0 +1,18 @@
+{
+  "suggest.noselect": false,
+  "diagnostic.displayByAle": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "scss",
+    "css",
+    "json",
+    "jsx",
+    "js",
+    "py",
+    "lua"
+  ],
+  "prettier.tabWidth": 2,
+  "javascript.showUnused": true,
+  "javascript.autoClosingTags": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.suggest.autoImports": true
+}

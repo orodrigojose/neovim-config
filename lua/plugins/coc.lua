@@ -13,7 +13,7 @@ g.ale_completion_enabled = false
 g.coc_global_extensions = {
   'coc-json', 'coc-emmet', 'coc-html',
   'coc-css', 'coc-tsserver', 'coc-pyright',
-  'coc-eslint', 'coc-prettier', 'coc-clangd',
+    'coc-eslint', 'coc-prettier', 'coc-clangd',
 }
 
 cmd [[

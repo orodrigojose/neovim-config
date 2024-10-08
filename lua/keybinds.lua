@@ -31,6 +31,16 @@ set("v", "<C-x>", '"+c <CR>', ns)
 set("v", "<C-v>", "p <CR>", ns)
 set("i", "<C-v>", "<C-r><C-o>+", ns)
 
+set("n", "<leader>t", ":ToggleTerm <CR>", ns)
+set("t", "<leader>t", ":ToggleTerm <CR>", ns)
+
 --[[ Nerdtree ]]
-set("i", "<C-o>", "<Esc> :NERDTreeToggle <CR>", ns)
-set("n", "<C-o>", ":NERDTreeToggle <CR>", ns)
+set("i", "<C-o>", "<Esc> :NvimToggle <CR>", ns)
+set("n", "<C-o>", ":NvimTreeToggle <CR>", ns)
+
+-- Move to previous/next
+set('n', '<A-,>', '<Cmd>BufferPrevious<CR>', ns)
+set('n', '<A-.>', '<Cmd>BufferNext<CR>', ns)
+-- Re-order to previous/next
+set('n', '<A-<>', '<Cmd>BufferMovePrevious<CR>', ns)
+set('n', '<A->>', '<Cmd>BufferMoveNext<CR>', ns)

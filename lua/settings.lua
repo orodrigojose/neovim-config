@@ -1,7 +1,8 @@
 local g, opt, cmd = vim.g, vim.opt, vim.cmd
 
 --[[ mapleader key ]]
-g.mapleader = " "
+g.mapleader = ","
+cmd [[ colorscheme ayu ]]
 
 --[[ General setup ]]
 opt.encoding = 'utf-8'
@@ -15,7 +16,6 @@ opt.swapfile = false
 opt.termguicolors = true
 g.gruvbox_contrast_dark = 'hard'
 g.gruvbox_sign_column = 'bg0'
-cmd [[ colorscheme dracula ]]
 
 --[[ Editor ]]
 opt.number = true
@@ -39,14 +39,6 @@ cmd [[set listchars=tab:▸\ ,trail:·]]
 
 --[[ Airline ]]
 g.airline_powerline_fonts = true
-g.airline_theme = 'dracula'
-
---[[ Nerdtree ]]
-g.NERDTreeShowHidden = true
-g.NERDTreeMinimalUI = true
-g.NERDTreeDirArrows = true
-g.NERDTreeDirArrowExpandable = ''
-g.NERDTreeDirArrowCollapsible = ''
 
 --[[ Tab size ]]
 local tabwidth = 2
